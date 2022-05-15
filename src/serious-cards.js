@@ -16,14 +16,13 @@
     console.log(
         `%c ${Name}                  \n`+
         `%c Version:  %c               ${Version} \n`+
-        `%c Author:   %c        ${Author} \n`+
-        `%c ${Description.substring(0, 30)} \n`+
-        ` ${Description.substring(31)}                 `,
+        `%c Author:   %c        ${Author} \n`,
+        //`%c ${Description.substring(0, 30)} \n`+
+        //` ${Description.substring(31)}                 `,
         logStyles[0],
         logStyles[1],
         logStyles[2],
         logStyles[1],
-        logStyles[2],
-        logStyles[3],
+        logStyles[2]
     );
 }());
